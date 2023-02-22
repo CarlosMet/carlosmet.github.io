@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarlosMet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="scrollreveal.js"></script>
+    <script src=""></script>
+    <style>
+        body{
+            font-family: 'Poppins';            
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/d47c8950ec.js" crossorigin="anonymous"></script>
+    <script src="form.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init("c4R8EMa-55ZZIoZXe");
+    })();
+</script>
+</head>
+<body>
+
+    <section class="hero">
+        <nav class="hero__nav">
+            
+            <div id="hamburguer">
+                <div>
+                    <button>
+                        <span class="top-line"></span>
+                        <span class="middle-line"></span>
+                        <span class="bottom-line"></span>
+                    </button> 
+                </div>
+                <div class="hamburger__menu slide-top">
+                    <ul class="hamburger__menu-list">
+                        <li><a href="#1">Projects</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">What i do</a></li>
+                        <li><a href="">Comments</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <p class="hero__nav--title">Carlos <span>Metaute</span> </p>
+            <div>
+                <ul class="hero__nav--options">
+                    <li><a class="home" href="#">Home</a></li>
+                    <li><a href="#1">Projects</a></li>
+                    <li><a href="#2">What i do</a></li>
+                    <li><a href="#3">Contact</a></li>                    
+                </ul>
+            </div>
+        </nav>
+
+        <div class="hero__info">
+            <h1 class="hero__info--title"><span class="hello">Hello</span> <br> <span class="carlos">i'm Carlos</span></h1>
+            <div class="hero__info--description">
+                <p>I'm a software development student at UNAD ( colombia ), currently, i'm also learning web development in platforms like Youtube and Udemy</p>
+                <div class="button-flex">
+                    <button><a href="carlos.pdf" id="download-btn" download="">Download CV</a></button>
+                    
+                    <div class="" style="display: flex;align-items: center;color: #787878;">
+                        &lt;<i>p</i>&gt; <div class="von"> &nbsp;&nbsp;  Carlos Metaute  &nbsp;&nbsp;</div> &lt;/<i>p</i>&gt
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#1">scroll down</a>
+            <div class="scroll-line"></div>
+        </div>
+
+    </section>
+
+    <section class="projects" id="1">
+        <h2 class="projects__title">Projects</h2>
+        <div>
+            <div class="projects__crypto">
+                <div class="projects__crypto--img">
+                    <img src="images/cryptoframe-removebg-preview.png" alt="cryptosearch">
+                </div>
+                <div class="projects__crypto__description">
+                    <h3 class="projects__crypto--title">cryptosearch</h3>
+                    <p>cryptosearch is an app built with React js that lets you search any crypto currency in real time, it uses the coingecko api to track the information.</p>
+                    <p class="tags">#React #React-router-dom #Coingecko Api #tailwind #dark theme</p>
+                    <div class="relative">
+                        <p>View Project</p>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                        <div class="absolute">                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects__spotify">
+                <div class="projects__spotify--img">
+                    <img src="images/Removal-250.png" alt="spotifysearch">
+                </div>
+                <div class="projects__spotify__description">
+                    <h3 class="projects__spotify--title">Daily Components (Landing page)</h3>
+                    <p>This is a landing page for a project called daily components that i've been working on to give pre-built and pre-designed components for everyone</p>
+                    <p class="tags">#React #tailwind #git #gh-pages</p>
+                    <div class="relative">
+                        <a href="https://carlosmet.github.io/dailyc/" target="_blank" style="text-decoration: none;color: black;">View Project</a>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                        <div class="absolute">                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="2">
+        <div class="techs">
+            <div class="techs__background">
+                <div class="typing right">
+                    <p>Skills</p>
+                </div>
+            </div>
+            <div class="techs__title top">
+                <h3><span>My</span> specialization</h3>
+            </div>
+            <div class="techs__cards">
+                <div class="card left">
+                    <div class="first-card--img">
+                        <img src="images/web-development-svgrepo-com.svg" alt="">
+                    </div>
+                    <div>
+                        <h4>WEB DEVELOPMENT</h4>
+                        <p>This is my favorite part about software development, in my free time i like to work in my own projects</p>
+                    </div>
+                </div>
+                <div class="card bottom">
+                    <div class="first-card--img">
+                        <img src="images/smartphone-technology-svgrepo-com.svg" alt="">
+                    </div>
+                    <div>
+                        <h4>TECHNOLOGIES I USE</h4>
+                        <p>For my projects i use technologies like react, tailwind, bootstrap, saas, javascript and css </p>
+                    </div>
+                </div>
+                <div class="card right">
+                    <div class="first-card--img">
+                        <img src="images/learning-svgrepo-com.svg" alt="">
+                    </div>
+                    <div>
+                        <h4>CURRENTLY LEARNING</h4>
+                        <p>I keep learning some technologies to complete my profile, currently i'm working on my problem solving skills and some technologies like git, github, styled components, vite and react testing library</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="favorite">
+                <hr>
+                <div class="flex">
+                    <p>My favorite<span>Tools</span></p>
+                    <div>
+                        <img src="images/logo.svg" class="react-img" alt="">
+                        <img src="images/tailwindcss.svg" class="tailwind-img" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h3 class="contact-title">Get in touch</h3>
+    <section class="contact" id="3">
+        <div class="contact__left">
+            <img src="images/undraw_agreement_re_d4dv.svg" alt="">
+        </div>
+        <div class="contact__right">
+            <div class="contact__right--options">
+                <div class="red-circle" id="icon1"><img src="images/contact.png" alt=""></div>
+                <span class="palito"></span>
+                <div id="icon2"><img src="images/email.png" alt=""></div>
+                <span class="palito"></span>
+                <div id="icon3"><img src="images/review.png" alt=""></div>
+            </div>
+            <div class="contact__right--info">
+                <h4>Contact information</h4>
+                <div>
+                    <div class="flex">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+57 300 6161316</p>
+                    </div>
+                    <div class="flex">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>carlosmetaute123456789@gmail.com</p>
+                    </div>
+                    <div class="flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Medellín, Colombia</p>
+                    </div>
+                    <div class="contact__right--btn">
+                        <div>
+                            <i class="fa-brands fa-github fa-2xl"></i>
+                            <i class="fa-brands fa-linkedin fa-2xl"></i>                            
+                        </div>
+                       
+                        <!-- <button>Next</button> -->
+                        <div class="contact-btn">
+                            <button class="next-btn">Next</button>
+                        </div>  
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="contact__right--message hidden">
+                <h4>Leave a message</h4>
+                <form onsubmit="SendMail()" action="" class="contact-form">
+                    <div class="name-container">
+                        <i class="fa-solid fa-person"></i>
+                        <input placeholder="Name" type="text" name="" id="form-name" required>
+                    </div>
+                    <div class="email-container">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input placeholder="Email" type="email" name="" id="email-field" required>
+                    </div>
+                    <input type="date" name="" id="">
+                    <input type="text" id="form-text">
+                    <div class="flex message-submit">
+                        <button class="cancel-btn">Cancel</button>
+                        <button class="submit-btn loading-btn"><span class="loading-span"></span><i class="fa-solid fa-check check"></i><input id="send-btn" type="submit" value="Send"></button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact__right--rate hidden">
+                <h4>Rate the page</h4>
+                <div class="rate-com">
+                    <div class="rate-component">
+                        <div>
+                            <div class="star-container">
+                                <i class="fa-solid fa-star"></i>
+                                <div class="rate-flex">
+                                    <img class="firestore-img" src="images/google-firebase-icon.png" alt="">
+                                    <p id="avgRate"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            Can you rate the page?
+                        </div>
+                        <div>
+                            Your opinion is important to me!
+                        </div>
+                        <div>
+                            <div class="rate-container">
+                                <button id="btn1">1</button>
+                                <button id="btn2">2</button>
+                                <button id="btn3">3</button>
+                                <button id="btn4">4</button>
+                                <button id="btn5">5</button>
+                            </div>
+                        </div>
+                        <div>
+                            <form id="form" action="">
+                                <button class="submit-btn"><input id="contact-btn" type="submit" value="Rate"></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="rate-submitted hidden">
+                    <div>                                     
+                        <img src="" alt="">
+                    </div>
+                    <div class="check-container">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <h4>Thank You!</h4>
+                    <p>Rate submitted!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <footer>
+            <p class="footer__title">Frontend Developer</p>
+            <h4>CARLOS METAUTE.</h4>
+            <P class="footer__description">Thanks for visiting my page, this was a brief description about me and my work, if you want to get to know me better, take a look of my social networks</P>
+            <div class="footer__social">
+                <a class="glowing-text">Linkedin</a>
+                <a class="glowing-text">Github</a>
+                <a class="glowing-text">Facebook</a>
+            </div>
+        </footer>
+    </section>
+    <script type="module" src="main.js"></script>       
+    <script src="scroll.js"></script>       
+</body>
+</html>
