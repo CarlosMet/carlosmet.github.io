@@ -6,11 +6,20 @@ let rate = 0
 
 const $nav = document.querySelector("#hamburguer button")
 const $navMenu = document.querySelector(".hamburger__menu")
+const $hamburguerOption = document.getElementsByClassName("hamburguer_option")
 
 $nav.addEventListener('click', e => {
     $nav.classList.toggle('open');
     $navMenu.classList.toggle('open-menu')
 })
+
+for (let i = 0; i < $hamburguerOption.length; i++) {
+    $hamburguerOption[i].addEventListener('click', (e) =>{
+        $navMenu.classList.toggle('open-menu')
+        $nav.classList.toggle('open');        
+    })
+    
+}
 
 const $icon1 = document.getElementById("icon1")
 const $icon2 = document.getElementById("icon2")
