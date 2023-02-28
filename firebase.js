@@ -6,12 +6,12 @@
 
   // Your web app's Firebase configuration
   const firebaseConfig = {
-    apiKey: "AIzaSyD-PkK1rYHpJM0wG_pVKHEEP79zTNXZitQ",
-    authDomain: "stars-afc12.firebaseapp.com",
-    projectId: "stars-afc12",
-    storageBucket: "stars-afc12.appspot.com",
-    messagingSenderId: "26093882500",
-    appId: "1:26093882500:web:6a543fd7973ee854c9c6d1"
+    apiKey: "AIzaSyAqARlH-PZSgNj8K7o9PDzMV5K12mtFTH4",
+    authDomain: "stars-rating-66794.firebaseapp.com",
+    projectId: "stars-rating-66794",
+    storageBucket: "stars-rating-66794.appspot.com",
+    messagingSenderId: "87366577612",
+    appId: "1:87366577612:web:91ac12f9ff15dea1144169"
   };
 
   // Initialize Firebase
